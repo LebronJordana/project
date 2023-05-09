@@ -1,7 +1,7 @@
 /* global */
 body {
   margin: 0 auto;
-  background-image: url(../Images/Slice\ 1.png);
+  background-image: url(../Images/Slice1.png);
   background-repeat: no-repeat;
   background-color: rgb(48, 44, 66);
 }
@@ -31,7 +31,7 @@ body {
   color: #ffffff;
 }
 .logo::after {
-  content: "secondary.logo";
+  content: "logosecondary";
 }
 .header-button-1 {
   width: 154px;
