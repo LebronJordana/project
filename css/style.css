@@ -30,9 +30,6 @@ body {
   text-indent: 39px;
   color: #ffffff;
 }
-.logo::after {
-  content: "logosecondary";
-}
 .header-button-1 {
   width: 154px;
   height: 48px;
@@ -824,12 +821,12 @@ body {
   );
 }
 /* section 6 */
-.s-6{
+.s-6 {
   max-width: 1275px;
   width: 100%;
   margin: 0 auto;
 }
-.s-6-container{
+.s-6-container {
   max-width: 1275px;
   width: 100%;
   height: 1008px;
@@ -839,33 +836,33 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  box-shadow: 0px 1px 11px 0px rgba(0,0,0,1);
-  -webkit-box-shadow: 0px 1px 11px 0px rgba(0,0,0,1);
-  -moz-box-shadow: 0px 1px 11px 0px rgba(0,0,0,1);
+
+  box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 1);
   border-radius: 100px 100px 100px 100px;
-  background: rgb(64,58,95);
-  background: radial-gradient(circle, rgba(64,58,95,1) 0%, rgba(33,30,46,1) 27%);
-
-  
-
+  background: rgb(64, 58, 95);
+  background: radial-gradient(
+    circle,
+    rgba(64, 58, 95, 1) 0%,
+    rgba(33, 30, 46, 1) 27%
+  );
 }
-.s-6-form-wrapper{
+.s-6-form-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-.s-6-wrapper-1{
+.s-6-wrapper-1 {
   display: flex;
   justify-content: space-between;
 }
-.s-6-wrapper-2{
+.s-6-wrapper-2 {
   display: flex;
   justify-content: space-between;
-
 }
-.s-6-h-1{
+.s-6-h-1 {
   max-width: 238px;
   width: 100%;
   font-family: "montserrat", sans-serif;
@@ -875,36 +872,40 @@ body {
   text-align: left;
   color: #ffffff;
   margin-bottom: 37px;
-
 }
-.s-6-hr-1{
+.s-6-hr-1 {
   max-width: 414px;
   width: 100%;
   height: 1px;
-  background: rgb(58,48,69);
-  background: linear-gradient(0deg, rgba(58,48,69,1) 0%, rgba(192,183,232,1) 27%, rgba(129,118,175,1) 53%, rgba(58,48,69,1) 77%);
+  background: rgb(58, 48, 69);
+  background: linear-gradient(
+    0deg,
+    rgba(58, 48, 69, 1) 0%,
+    rgba(192, 183, 232, 1) 27%,
+    rgba(129, 118, 175, 1) 53%,
+    rgba(58, 48, 69, 1) 77%
+  );
   border: none;
   margin-bottom: 28px;
-
 }
-.s-6-h-2{
+.s-6-h-2 {
   max-width: 570px;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   font-size: 36px;
   text-align: left;
-  color: #ffffff; 
+  color: #ffffff;
   margin-bottom: 74px;
 }
-#firstname{
+#firstname {
   width: 524px;
   height: 72px;
   background: transparent;
   border-radius: 40px;
   border-width: 2px;
   border-color: #ffffff;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 14px;
   word-spacing: 6px;
@@ -914,31 +915,29 @@ body {
   margin-right: 10px;
   margin-bottom: 39px;
 }
-#lastname{
+#lastname {
   width: 524px;
   height: 72px;
   background: transparent;
   border-radius: 40px;
   border-width: 2px;
   border-color: #ffffff;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 14px;
   word-spacing: 6px;
   text-align: left;
   color: #ffffff;
   padding: 0 41px;
-
-
 }
-#email{
+#email {
   width: 524px;
   height: 72px;
   background: transparent;
   border-radius: 40px;
   border-width: 2px;
   border-color: #ffffff;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 14px;
   word-spacing: 6px;
@@ -947,33 +946,30 @@ body {
   padding: 0 41px;
   margin-right: 10px;
   margin-bottom: 33px;
-  
 }
-#number{
+#number {
   width: 524px;
   height: 72px;
   background: transparent;
   border-radius: 40px;
   border-width: 2px;
   border-color: #ffffff;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 14px;
   word-spacing: 6px;
   text-align: left;
   color: #ffffff;
   padding: 0 41px;
-
-
 }
-#subject{
+#subject {
   width: 1058px;
   height: 72px;
   background: transparent;
   border-radius: 40px;
   border-width: 2px;
   border-color: #ffffff;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 14px;
   word-spacing: 6px;
@@ -982,14 +978,14 @@ body {
   padding: 0 41px;
   margin-bottom: 32px;
 }
-#tellussomething{
+#tellussomething {
   width: 1058px;
   height: 210px;
   background: transparent;
   border-radius: 40px;
   border-width: 2px;
   border-color: #ffffff;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 14px;
   word-spacing: 6px;
@@ -998,70 +994,69 @@ body {
   padding: 0 41px;
   margin-bottom: 51px;
 }
-.s-6-button-1{
- height: 48px;
- width: 214px;
- border: 1px solid black;
- border-radius: 40px;
- background: rgb(129, 118, 175);
- background: linear-gradient(
-   177deg,
-   rgba(129, 118, 175, 1) 0%,
-   rgba(192, 183, 232, 1) 97%
- );
- border: 1px solid black;
-
+.s-6-button-1 {
+  height: 48px;
+  width: 214px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background: rgb(129, 118, 175);
+  background: linear-gradient(
+    177deg,
+    rgba(129, 118, 175, 1) 0%,
+    rgba(192, 183, 232, 1) 97%
+  );
+  border: 1px solid black;
 }
 /* footer */
-.footer{
+.footer {
   max-width: 1270px;
   width: 100%;
   margin: 0 auto;
   margin-top: 122px;
 }
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footer-wrapper-1{
+.footer-wrapper-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer-wrapper-2{
+.footer-wrapper-2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 49px;
 }
-.footer-wrapper-2 img{
-  margin-right: 10px; 
+.footer-wrapper-2 img {
+  margin-right: 10px;
 }
-.footer-li-wrapper{
+.footer-li-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 30px;
 }
-.footer-wrapper-3{
+.footer-wrapper-3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
- }
-.footer-li{
+}
+.footer-li {
   width: 100%;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-indent: 23px;
   text-align: left;
   color: #ffffff;
 }
-.footer-h-1{
+.footer-h-1 {
   width: 100%;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 16px;
   text-indent: 23px;
@@ -1070,31 +1065,40 @@ body {
   word-spacing: 6px;
   margin-bottom: 43px;
 }
-.footer-hr{
+.footer-hr {
   height: 196px;
   width: 6px;
   border: none;
-  background: rgb(52,48,69);
-background: linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(192,183,232,1) 33%, rgba(129,118,175,1) 73%, rgba(52,48,69,1) 100%);
-
+  background: rgb(52, 48, 69);
+  background: linear-gradient(
+    0deg,
+    rgba(52, 48, 69, 1) 0%,
+    rgba(192, 183, 232, 1) 33%,
+    rgba(129, 118, 175, 1) 73%,
+    rgba(52, 48, 69, 1) 100%
+  );
 }
-.footer-button-1{
+.footer-button-1 {
   max-width: 214px;
   height: 48px;
   width: 100%;
   border-radius: 40px;
   border: 1px solid black;
-  background: rgb(129,118,175);
-  background: linear-gradient(0deg, rgba(129,118,175,1) 0%, rgba(192,183,232,1) 100%);
-  font-family: 'Montserrat',sans-serif;
+  background: rgb(129, 118, 175);
+  background: linear-gradient(
+    0deg,
+    rgba(129, 118, 175, 1) 0%,
+    rgba(192, 183, 232, 1) 100%
+  );
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-indent: 23px;
   text-align: left;
 }
-.footer-credits{
+.footer-credits {
   width: 100%;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-indent: 23px;
@@ -1103,10 +1107,16 @@ background: linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(192,183,232,1) 33%, 
   margin-top: 51px;
   margin-bottom: 62px;
 }
-.footer-hr-1{
+.footer-hr-1 {
   width: 1269px;
   height: 1px;
   border: none;
-  background: rgb(52,48,69);
-background: linear-gradient(0deg, rgba(52,48,69,1) 0%, rgba(192,183,232,1) 33%, rgba(129,118,175,1) 73%, rgba(52,48,69,1) 100%);
+  background: rgb(52, 48, 69);
+  background: linear-gradient(
+    0deg,
+    rgba(52, 48, 69, 1) 0%,
+    rgba(192, 183, 232, 1) 33%,
+    rgba(129, 118, 175, 1) 73%,
+    rgba(52, 48, 69, 1) 100%
+  );
 }
